@@ -1,0 +1,47 @@
+/* Aplica um estilo padrão para todo o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    margin: 0;                      /* Remove as margens padrão */
+    background-color: #f9f9f9;     /* Cor de fundo clara para a página */
+}
+
+/* Estiliza o cabeçalho (header) */
+header {
+    background-color: #d43232; /* Cor de fundo vermelha escura */
+    color: white;              /* Cor do texto em branco */
+    padding: 16px;             /* Espaçamento interno */
+}
+
+/* Remove marcadores da lista do menu e ajusta os espaçamentos */
+nav ul {
+    list-style: none;      /* Remove os pontinhos da lista */
+    padding: 0;            /* Remove o espaçamento interno */
+    margin-top: 10px;      /* Espaço acima da lista */
+    margin-bottom: 0;      /* Sem espaço abaixo da lista */
+}
+
+/* Deixa os itens do menu lado a lado */
+nav ul li {
+    display: inline;       /* Coloca os itens em linha */
+    margin-right: 15px;    /* Espaço entre os itens do menu */
+}
+
+/* Estilo para os links do menu */
+nav a {
+    color: white;          /* Cor do texto dos links */
+    font-weight: bold;     /* Texto em negrito */
+}
+
+/* Estilo para a parte principal da página */
+main {
+    padding: 20px;         /* Espaçamento interno (respiro) */
+}
+
+/* Estilo para o iframe (quadro onde as páginas são carregadas) */
+iframe {
+    width: 100%;               /* Ocupa toda a largura disponível */
+    height: 600px;             /* Altura do quadro */
+    border: 1px solid #ad0c0c; /* Borda vermelha escura */
+    background-color: white;   /* Fundo branco dentro do iframe */
+    border-radius: 5px;        /* Bordas arredondadas */
+}

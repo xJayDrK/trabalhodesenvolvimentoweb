@@ -1,0 +1,43 @@
+<!-- Informa que o documento está usando HTML5 -->
+<!DOCTYPE html>
+
+<!-- Início do código HTML -->
+<html lang="pt-BR"> <!-- Define que o conteúdo está em português do Brasil -->
+
+<head>
+    <!-- Define a codificação de caracteres, importante para acentuação -->
+    <meta charset="UTF-8">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Portfólio - Início</title>
+
+    <!-- Conecta o arquivo de estilo CSS externo -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho do site, onde fica o título e o menu -->
+    <header>
+        <h1>Meu Portfólio</h1>
+
+        <!-- Menu de navegação com os links do site -->
+        <nav>
+            <ul>
+                <!-- Cada link abre uma página dentro do quadro (iframe) -->
+                <li><a href="sobre.html" target="frame-conteudo">Sobre mim</a></li>
+                <li><a href="formacao.html" target="frame-conteudo">Formação</a></li>
+                <li><a href="portfolio.html" target="frame-conteudo">Portfólio</a></li>
+                <li><a href="contato.html" target="frame-conteudo">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Parte principal da página -->
+    <main>
+        <!-- O iframe é um espaço que carrega outras páginas dentro do site -->
+        <!-- O nome "frame-conteudo" é usado para saber onde abrir os links -->
+        <!-- A página "sobre.html" é a que aparece primeiro ao abrir o site -->
+        <iframe name="frame-conteudo" src="sobre.html"></iframe>
+    </main>
+</body>
+</html>

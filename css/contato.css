@@ -1,0 +1,40 @@
+/* Título da página */
+h2 {
+    color: #333;
+}
+
+/* Estilo dos rótulos */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Campos de texto e textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 300px;           /* Ocupa toda a largura disponível */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo do botão */
+input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #d43232;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Efeito quando passa o mouse no botão */
+input[type="submit"]:hover {
+    background-color: #b62828;
+}
